@@ -7,7 +7,7 @@
     <title>@yield('titulo_pagina')</title>
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/bootstrap.min.css')}}">
 </head>
-<body>
+<body class="bg-dark">
 
     @include('layouts.navbar')
 
