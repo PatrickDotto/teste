@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('titulo_pagina')</title>
+    <title>{{ $title ?? "Meu layout com components"}}</title>
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/bootstrap.min.css')}}">
 </head>
 <body class="bg-dark">
 
     @include('layouts.navbar')
 
-    @yield('content')
+    {{ $slot }}
 
     <script src="{{ asset('assets/bootstrap/bootstrap.bundle.min.js')}}"></script>
     

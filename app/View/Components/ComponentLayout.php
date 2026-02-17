@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Multislot extends Component
+class ComponentLayout extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class Multislot extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.multislot');
+        return view('components.component-layout');
     }
 }
