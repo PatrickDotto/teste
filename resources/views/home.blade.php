@@ -32,4 +32,12 @@
     </x-multi-slot>
 </div>
 
+<div class="text-white">
+    <h4>Componente Anonimo</h4>
+</div>
+
+<x-alert-card>Mensagem 1</x-alert-card>
+<x-alert-card>Mensagem 2</x-alert-card>
+<x-alert-card>Mensagem 3</x-alert-card>
+
 @endsection
